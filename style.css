@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: url(candy-crush-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color:#a3dd1b
+}
+
+.score-board {
+  height: 560px;
+  width: 10%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 2rem;
+}
+h1 {
+  font-size: 3rem;
+}
+
+
+.grid {
+  box-sizing: content-box;
+  height: 560px;
+  width: 560px;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: grab;
+  background-color: rgba(0,0,0, 0.3);
+  border: 2px solid black;
+}
+
+.grid div {
+  height: 70px;
+  width: 70px;
+  /* border: 2px solid black; */
+}
